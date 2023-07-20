@@ -19,10 +19,99 @@
   </head>
 </head>
 <body>
-<h1>Pizza-licious!</h1>
+  <h1>Pizza-licious!</h1>
+  <h2>Order Now</h2>
 
-<h2>Order Now</h2>
+  <!-- Form for Pizza Order -->
+  <div>
+    Size of Pizza:
+    <input type="radio" name="size" id="small" value="Small" />
+    <label for="small">Small</label>
+
+    <input type="radio" name="size" id="med" value="Medium" />
+    <label for="med">Medium</label>
+
+    <input type="radio" name="size" id="lrg" value="Large" />
+    <label for="lrg">Large</label>
+
+    <input type="radio" name="size" id="xtralrg" value="Extra Large" />
+    <label for="xtralrg">Extra Large</label>
+  </div>
+  <!-- Crust -->
+  <div>
+    <label for="crust">Type of Crust:</label>
+    <select name="crust" id="crust">
+      <option value="Regular">Regular</option>
+      <option value="Thin">Thin</option>
+      <option value="Thick">Thick</option>
+      <option value="Gluten-free">Gluten-free</option>
+    </select>
+  </div>
+  <!-- Sauce Type-->
+  <div>
+    <label for="sauce">Type of Sauce:</label>
+    <select name="sauce" id="sauce">
+      <option value="Marinara">Marinara</option>
+      <option value="Pesto">Pesto</option>
+      <option value="White Sauce">White Sauce</option>
+      <option value="Sweet Chilli Sauce">Sweet Chilli Sauce</option>
+      <option value="No Sauce">No Sauce</option>
+    </select>
+  </div>
+  <!-- Sauce Amount-->
+  <div>
+    <label for="sauce_amount">Amount of Sauce (if applicable):</label>
+    <select name="sauce_amount" id="sauce_amount">
+      <option value="Regular">Regular</option>
+      <option value="Less">Less</option>
+      <option value="Extra">Extra</option>
+    </select>
+  </div>
+  <!-- Cheese -->
+  <div>
+    <label for="cheese">Type of Cheese:</label>
+    <select name="cheese" id="cheese">
+      <option value="Mozerella">Mozerella</option>
+      <option value="Cheddar">Cheddar</option>
+      <option value="Three-Cheese Blend">Three-Cheese Blend</option>
+      <option value="No Cheese">No Cheese</option>
+    </select>
+  </div>
+  <!-- Toppings -->
+  <div>
+    Toppings: 
+    <input type="checkbox" id="pepperoni" name="toppings[]" value="Pepperoni" />
+    <label for="pepperoni">Pepperoni</label>
+    <input type="checkbox" id="bacon" name="toppings[]" value="Bacon" />
+    <label for="bacon">Bacon</label>
+    <input type="checkbox" id="spicy_italian_sausage" name="toppings[]" value="Spicy Italian Sausage" />
+    <label for="spicy_italian_sausage">Spicy Italian Sausage</label>
+    <input type="checkbox" id="ground_beef" name="toppings[]" value="Ground Beef" />
+    <label for="ground_beef">Ground Beef</label>
+    <input type="checkbox" id="pineapple" name="toppings[]" value="Pineapple" />
+    <label for="pineapple">Pineapple</label>
+    <input type="checkbox" id="green_pepper" name="toppings[]" value="Green Pepper" />
+    <label for="green_pepper">Green Pepper</label>
+    <input type="checkbox" id="jalapenos" name="toppings[]" value="Jalapenos" />
+    <label for="jalapenos">Jalapenos</label>
+    <input type="checkbox" id="sliced_tomatoes" name="toppings[]" value="Sliced Tomatoes" />
+    <label for="sliced_tomatoes">Sliced Tomatoes</label>
+    <input type="checkbox" id="zuchinni" name="toppings[]" value="Zuchinni" />
+    <label for="zuchinni">Zuchinni</label>
+    <input type="checkbox" id="chicken" name="toppings[]" value="Chicken" />
+    <label for="chicken">Chicken</label>
+    <input type="checkbox" id="goat_cheese" name="toppings[]" value="Goat Cheese" />
+    <label for="goat_cheese">Goat Cheese</label>
+    <input type="checkbox" id="sundried_tomatoes" name="toppings[]" value="Sundried Tomatoes" />
+    <label for="sundried_tomatoes">Sundried Tomatoes</label>
+    <input type="checkbox" id="onion" name="toppings[]" value="Onion" />
+    <label for="onion">Onion</label>
+  </div>
+
+
 
 </body>
-
+<footer>
+  <p id="studentId"></p>
+</footer>
 </html>
