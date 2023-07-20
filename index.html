@@ -25,16 +25,16 @@
   <!-- Form for Pizza Order -->
   <div>
     Size of Pizza:
-    <input type="radio" name="size" id="small" value="Small" />
+    <input type="radio" name="size" id="size" value="Small" />
     <label for="small">Small</label>
 
-    <input type="radio" name="size" id="med" value="Medium" />
+    <input type="radio" name="size" id="size" value="Medium" />
     <label for="med">Medium</label>
 
-    <input type="radio" name="size" id="lrg" value="Large" />
+    <input type="radio" name="size" id="size" value="Large" />
     <label for="lrg">Large</label>
 
-    <input type="radio" name="size" id="xtralrg" value="Extra Large" />
+    <input type="radio" name="size" id="size" value="Extra Large" />
     <label for="xtralrg">Extra Large</label>
   </div>
   <!-- Crust -->
@@ -107,7 +107,11 @@
     <input type="checkbox" id="onion" name="toppings[]" value="Onion" />
     <label for="onion">Onion</label>
   </div>
+  <div>
+    <button id="order">Place Order</button>
+  </div>
 
+  <p id="orderDesc"></p>
 
 
 </body>
