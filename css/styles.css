@@ -9,3 +9,7 @@ h1, h2{
 div {
     line-height: 4vh;
 }
+
+footer {
+    font-weight: 600;
+}
